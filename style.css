@@ -1,0 +1,65 @@
+body
+{
+  font-family: 'Special Elite', cursive;
+  background: #7a6161;
+}
+
+.header_div
+  {
+  font-family: cursive;
+  background: rgb(48, 48, 48);
+  animation: spider 50s linear infinite;
+  }
+  @keyframes spider {
+    0% { color: rgb(0, 0, 255); }
+    20% { color: rgb(255, 0, 0); }
+    40% { color: rgb(38, 0, 255); }
+    60% { color: rgb(255, 0, 0); }
+    80% { color: rgb(0, 38, 255); }
+    100% { color: rgb(0, 0, 255); }
+  }
+  .header_div p{
+    font-family: 'Kablammo';
+    color: rgb(128, 128, 128);
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .main_div button{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+  }
+  .copy_right_footer {
+   position: fixed;
+   color: #ffffff;
+   bottom: 0;
+   width: 100%;
+   font-size: 18px;
+   background-color: #8a7676;
+   line-height: 3;
+   text-align: center;
+   text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.sons{
+  animation: sons 50s linear infinite;
+}
+@keyframes sons {
+  0% { color: rgb(44, 44, 44); }
+  20% { color: rgb(181, 181, 181); }
+  40% { color: rgb(44, 44, 44); }
+  60% { color: rgb(126, 126, 126); }
+  80% { color: rgb(44, 44, 44); }
+  100% { color: rgb(255, 255, 255); }
+  120%  {color: rgb(44, 44, 44);}
+}
+
+
+
+.secreto{
+  color: #7a6161;
+  background-color: #7a6161;
+  border: none;
+}
